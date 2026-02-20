@@ -12,17 +12,33 @@
         }
 
         header {
-            background-color: #222;
+            background: linear-gradient(to right, #1f1f1f, #333);
             color: white;
-            padding: 40px 20px;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .buttons a:hover {
+            background: #0056b3;
         }
 
         section {
-            padding: 40px 20px;
-        }
-
-        h2 {
-            color: #222;
+            padding: 50px 20px;
         }
 
         .project {
@@ -31,22 +47,13 @@
             padding: 20px;
             width: 80%;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
         footer {
             background: #222;
             color: white;
             padding: 20px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #007bff;
-        }
-
-        a:hover {
-            color: #0056b3;
         }
     </style>
 </head>
@@ -56,20 +63,20 @@
 <header>
     <h1>Dwarakesh V K</h1>
     <p>AI & Data Science Student</p>
-    <p>Passionate about building data-driven solutions using Python and Machine Learning.</p>
+    <p>Building data-driven solutions using Python & Machine Learning.</p>
+
+    <div class="buttons">
+        <a href="#">Download Resume</a>
+        <a href="https://www.linkedin.com/in/dwarakeshkrish/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/dwarakeshkrish28-maker" target="_blank">GitHub</a>
+        <a href="mailto:dwarakeshkrish28@gmail.com">Email</a>
+    </div>
 </header>
 
 <section>
     <h2>About Me</h2>
-    <p>I am a B.Tech student specializing in Artificial Intelligence and Data Science. 
-    I have a strong foundation in Python programming and machine learning concepts.</p>
-</section>
-
-<section>
-    <h2>Skills</h2>
-    <p><b>Programming:</b> Python, Java, SQL</p>
-    <p><b>Concepts:</b> OOPS, Data Structures, Machine Learning</p>
-    <p><b>Tools:</b> Git, GitHub</p>
+    <p>I am a B.Tech student specializing in Artificial Intelligence and Data Science 
+    with strong skills in Python and Machine Learning.</p>
 </section>
 
 <section>
@@ -77,19 +84,19 @@
 
     <div class="project">
         <h3>Student Results Management System</h3>
-        <p>Developed a system to manage student academic records using Python.</p>
+        <p>Built using Python with structured modules for academic record management.
+        Version controlled using Git and GitHub.</p>
     </div>
 
     <div class="project">
         <h3>Fake News Detection</h3>
-        <p>Built a machine learning model to classify news as real or fake using Python.</p>
+        <p>Developed a machine learning model using Python for real-time news classification.</p>
     </div>
 
 </section>
 
 <footer>
-    <p>Contact: dwarakeshkrish28@gmail.com</p>
-    <p>GitHub | LinkedIn</p>
+    <p>© 2026 Dwarakesh V K</p>
 </footer>
 
 </body>
